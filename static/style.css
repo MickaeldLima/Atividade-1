@@ -1,0 +1,107 @@
+/*Padronização geral*/
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #373834;
+}
+
+button{
+    border: none;
+    color: white;
+    background-color:#3e77a3;
+    padding: 10px 32px;
+    font-size: 20px;
+    border-radius: 6px;
+    transition-duration: 0.6s;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #296b9e;
+    
+}
+
+/* Campo "alinhamento do conteúdo" */
+
+.espaco{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+
+/* Campo "texto e botão do texto" */
+
+.texto{
+    margin: 10px;
+    width: 45%;
+    padding: 10px;
+    font-size: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divbotaodotexto{    
+    align-self: end;
+    margin: 60px;
+}
+
+
+
+
+/* Campo "foto e botão na foto" */
+
+.divdafoto{
+    width: 45%;
+    padding: 10px;
+    position: relative;
+}
+
+.img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px 0 ;
+    transition-duration: 0.6s;
+}
+
+.botaodafoto{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.divdafoto:hover .img{
+    opacity: 0.3;
+}
+
+.divdafoto:hover .botaodafoto{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
